@@ -8,6 +8,9 @@ export default class landingPage extends Component {
         <div>
             <h1>Programming Langauges</h1>
         </div>
+        <div>
+            
+        </div>
       </div>
     )
   }
