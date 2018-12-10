@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+ /* font import from google */
+.header_outline{
+    background-color: rgba(153, 114, 63, 0.705)
+}
+ /* Turtule logo image */
+.tut_img{
+    width: 60px;
+    height: auto;
+    position: absolute;
+    top: 2px;
+    left:20px;
+    
+}
+ /* header name */
+.banner_name{
+    /* font-family: 'Open Sans', sans-serif; */
+    position: relative;
+    top: 20px;
+    left: 6pc;
+}
+/* navigator  */
+.project_links {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+     float: right;  
+     background-color: #333;
+     border-top-left-radius: 10px;
+    
+}
+.project_links li {
+   
+     float: left;
+
+}
+.project_links li a{
+
+        display: block;
+        color: white;
+        padding: 14px 16px;
+        text-decoration: none;
+      
+}
+.project_links li a:hover{
+    background-color: rgba(114, 106, 106, 0.849);
+  
+}
